@@ -7,11 +7,16 @@ body {
 header {
 	height:80px;
 	background-color:#091E3B;
-	
+}
+
+.q8-logo {
+	position:absolute;
+	top:7px;
+	left:403px;
 }
 
 footer {
-	height:440px;
+	height:439px;
 	background-color:#FFFFFF;
 }
 
@@ -20,60 +25,20 @@ footer {
 	background-color:#F7B616;
 }
 
-.There_are_7_5_billion_people_around_the_world_O {
-  font-size: 28px;
-  font-family: "Proxima Nova";
-  color: rgb(255, 255, 255);
-  line-height: 1.607;
-  text-align: center;
-  -moz-transform: scale(0.95, 0.9);
-  -webkit-transform: scale(0.95, 0.9);
-  -ms-transform: scale(0.95, 0.9);
-  position: absolute;
-  left: 388.383px;
-  top: 195.528px;
-  width: 650.133px;
-  height: 66.937px;
-  z-index: 43;
-}
-
-/* from footer */
-.This_brand_owned_by_Q8_securities_which_is_regu {
-  font-size: 16px;
-  font-family: "Proxima Nova", Regular;
-  font-stretch: ultra-expanded;
-  font-style: arabic;
-  /* letter-spacing: 1px; */
-  color: rgb(0, 0, 0);
-  line-height: 1.2;
-  text-align: left;
-  -moz-transform: matrix( 0.94934224355541,0,0,0.89999990190779,0,0);
-  -webkit-transform: matrix( 0.94934224355541,0,0,0.89999990190779,0,0);
-  -ms-transform: matrix( 0.94934224355541,0,0,0.89999990190779,0,0);
-  position: absolute;
-  left: 665px;
-  top: 1668px;
-  width: 143.023px;
-  height: 51.275px;
-  z-index: 5;
-}
-
 .top-blue-part {
-	height:633px;
+	height:634px;
 	background-image:url("images/top-blue-part.png");
-
 }
 
 .middle-white-part {
-	height:394px;
+	height:393px;
 	background-color:#FFFFFF;
+	padding:0;
 }
 
 .bottom-blue-part {
-	height:487px;
+	height:488px;
 	background-color:#091E3B;
-
-	
 }
 
 .map {
@@ -81,3 +46,123 @@ footer {
 	background-repeat:no-repeat;
 	background-position: top 67px right 406px;
 }
+
+.icon1 {
+	position: absolute;
+    top: 1197px;
+    left: 403px;
+}
+
+.icon2 {
+	position: absolute;
+    top: 1319px;
+    left: 402px;
+}
+
+.text1 {
+	position: absolute;
+    top: 1202px;
+    left: 497px;
+}
+
+.text2 {
+	position: absolute;
+    top: 1326px;
+    left: 495px;
+}
+
+.this-brand {
+	position: relative;
+    top: 13px;
+    left: 668px;
+	margin-bottom:45px;
+	box-sizing:border-box;
+}
+
+.cma-image {
+	position: relative;
+    top: 12px;
+    left: 771px;
+	margin-bottom:45px;
+	box-sizing:border-box;
+}
+
+.islamic-image {
+	position: relative;
+    top: 13px;
+    left: 850px;
+	margin-bottom:45px;
+	box-sizing:border-box;
+}
+
+.risk-disclaimer-image {
+	position: relative;
+    top: 167px;
+	right:29px
+}
+
+.payment-methods {
+	position: relative;
+    top: 193px;
+	left:574px;
+	box-sizing:border-box;
+}
+
+.start-trade-button {
+	width:361px;
+	height:70px;
+	box-sizing:border-box;
+	padding-top:1px;
+	padding-left:0;
+	padding-right:0;
+	padding-bottom:0;
+	border:0;
+	background-color:#F9B016;
+	background-image:url("images/start-trading.png");
+	background-repeat:no-repeat;
+	background-position:top 22px right 97px;
+	position:absolute;
+	top:1470px;
+	left:437px;
+}
+
+.start-trade-button:hover {
+	background-color:#F8C65B;
+}
+
+.white-icon-1 {
+	position: absolute;
+    top: 799px;
+    left: 522px;
+}
+
+.white-icon-2 {
+	position: absolute;
+    top: 805px;
+    left: 908px;
+}
+
+.white-icon-3 {
+	position: absolute;
+    top: 807px;
+    left: 1311px;
+}
+
+.white-text-1 {
+	position: absolute;
+    top: 951px;
+    left: 484px;
+}
+
+.white-text-2 {
+	position: absolute;
+    top: 951px;
+    left: 875px;
+}
+
+.white-text-3 {
+	position: absolute;
+    top: 950px;
+    left: 1276px;
+}
+

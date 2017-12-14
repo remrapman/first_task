@@ -4,6 +4,7 @@
 		<meta charset="UTF-8"/>
 		<title>Q8 TRADE - TRADE BITCOIN NOW</title>
 		<link href="style.css" rel="stylesheet" type="text/css" />
+		<link href="form-style.css" rel="stylesheet" type="text/css" />
 	</head>
 	
 	
@@ -13,7 +14,29 @@
 		</header>
 		<div class="yellow-stripe"></div>
 		
-		<div class="top-blue-part"></div>
+		<div class="top-blue-part">
+			<div class="container">
+				<div class="form-top-text"></div>
+				<input type="text" name="first-name" placeholder="First Name" />
+				<input type="text" name="last-name" placeholder="Last Name" />
+				<input type="email" name="email" placeholder="Email" />
+				<input type="list" name="countries-list" placeholder="United Kingdom" />
+					<datalist id="countries-list">
+						<option value="United Kingdom">
+						<option value="USA">    
+						<option value="China">
+						<option value="Ukraine">
+						<option value="Some other country">
+					</datalist>
+				<output placeholder="44"></output>
+				<input type="number" name="telephone" placeholder="Telephone" />
+				<input type="checkbox" name="newsletter-approve" id="newsletter-approve" />
+				<label for="newsletter-approve">I Would Like To Recieve The Newsletter</label>
+				<input type="checkbox" name="agree-with-terms" id="agree-with-terms" />
+				<label for="agree-with-terms">I agree to the <u>Terms and Conditions</u> Risk Warning and the <u>Privacy Policy</u> in Q8 Trade</label>
+				<input type="submit" class="form-submit" />
+			</div>
+		</div>
 		
 		<div class="middle-white-part">
 			<img src="images/white-icon-1.png" class="white-icon-1" />
@@ -29,7 +52,7 @@
 			<img src="images/icon-2.png" class="icon2" />
 			<img src="images/text-1.png" class="text1" />
 			<img src="images/text-2.png" class="text2" />
-			<button type="button" class="start-trade-button"></button>
+			<button type="submit" class="start-trade-button"></button>
 		</div>
 		
 		
